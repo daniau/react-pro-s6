@@ -2,12 +2,20 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
+import Header from './component/Header'
+import Footer from './component/footer'
+import SideNav from './component/SideNav'
+import MainContent from './component/MainContent'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <section>This is section component</section>
+    <Header/>
+    <Footer/>
+    <SideNav/>
+    <MainContent/>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
