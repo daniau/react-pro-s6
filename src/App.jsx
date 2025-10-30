@@ -15,14 +15,36 @@ import RecipeList from './EX/EX2'
 import {List} from './filterd-list/List'
 // import StoryTray from'./EX/EX3'
 
+import NamingEvent from './component/day-3/NamingEvent'
+import Toolbar1 from './component/day-3/EventPropagation'
+import EventPrevent from './component/day-3/EventPrevent'
+import LightSwitch from './EX/EX4'
 
+import InlineStyle from './component/day-3/inlineStyle'
+import Ex5 from "./EX/EX5";
+import CssStyle1 from "./component/day-3/CssModule"
+import ToolBar from './component/day-3/Event'
+import Toolbar from './component/day-3/EventsProps'
+// import Gallary from './EX/EX6'
+import Form from './EX/EX7'
 function App() {
   const [count, setCount] = useState(0)
  
  
   return (
     <>
-    <List/>
+    <Form/>
+    {/* <Gallary/> */}
+    {/* <Button/> */}
+    {/* <CssStyle1/> */}
+    {/* <InlineStyle/>
+    <Ex5/>
+    <LightSwitch/>
+    <EventPrevent/>
+    <Toolbar1/> */}
+    {/* <NamingEvent/> */}
+    {/* <Toolbar/>
+    <List/> */}
     {/* <StoryTray/> */}
     <RecipeList/>
         {/* <PackingList/> */}
